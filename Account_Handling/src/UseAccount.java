@@ -79,7 +79,7 @@ public class UseAccount {
 		else if(name.equals("CurrentAccount")&&op==3)
 		{
 			CurrentAc  c1 = new CurrentAc();
-			c1.getbalance();
+			c1.depositeAmount();
 		}
 		else if(name.equals("SavingAccount")&&op==1)
 		{
@@ -89,12 +89,12 @@ public class UseAccount {
 		else if(name.equals("SavingAccount")&&op==2)
 		{
 			SavingAc  c1 = new SavingAc();
-			c1.getbalance();
+			c1.withdrawAmount();
 		}
 		else if(name.equals("SavingAccount")&&op==3)
 		{
 			SavingAc  c1 = new SavingAc();
-			c1.getbalance();
+			c1.depositeAmount();
 		}
 		else
 			System.out.println("Wrong choice");
